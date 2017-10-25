@@ -1,6 +1,24 @@
 # Todo
 
-**TODO: Add description**
+Ref:
+http://geoffreylessel.com/2016/from-zero-to-ecto-in-10-minutes/
+
+Simple app demonstrating using Ecto in a simple Elixir project (no phoenix)
+
+- mix deps.get
+- mix compile
+- mix help
+- mix ecto.gen.repo
+- mix ecto.create
+- mix ecto.gen.migration create_items
+- mix ecto.migrate
+- 
+- iex -S mix
+- alias Todo.Repo
+- alias Todo.Item
+- Repo.all Item
+- Repo.insert %Item{title: "Talk at fullstack"}
+
 
 ## Installation
 
